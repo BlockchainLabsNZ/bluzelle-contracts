@@ -6,7 +6,7 @@ This audit report was undertaken by BlockchainLabs.nz for the purpose of providi
 Solidity contracts were sourced from the public Github repo [njmurarka/ico-solidity](https://github.com/njmurarka/ico-solidity) prior to commit [c1878866127df502c41036f14f30ad737119c201](https://github.com/njmurarka/ico-solidity/tree/c1878866127df502c41036f14f30ad737119c201) - we would encourage all community members and token holders to make their own assessment of the contracts.
 
 ## Scope
-All Solidity code contained in [/contracts](https://github.com/BlockchainLabsNZ/bluzelle-contracts/tree/c1878866127df502c41036f14f30ad737119c201) was considered in scope along with the tests contained in [/test](https://github.com/BlockchainLabsNZ/bluzelle-contracts/tree/c1878866127df502c41036f14f30ad737119c201/tests) as a basis for static and dynamic analysis.
+All Solidity code contained in [/contracts](https://github.com/BlockchainLabsNZ/bluzelle-contracts/tree/c1878866127df502c41036f14f30ad737119c201) was considered in scope along with the tests contained in [/tests](https://github.com/BlockchainLabsNZ/bluzelle-contracts/tree/c1878866127df502c41036f14f30ad737119c201/tests) as a basis for static and dynamic analysis.
 
 ## Focus Areas
 The audit report is focused on the following key areas - though this is not an exhaustive list.
