@@ -3,10 +3,10 @@
 ## Preamble
 This audit report was undertaken by BlockchainLabs.nz for the purpose of providing feedback to Bluzelle. It has subsequently been shared publicly without any express or implied warranty.
 
-Solidity contracts were sourced from the public Github repo [njmurarka/ico-solidity](https://github.com/njmurarka/ico-solidity) prior to commit [c1878866127df502c41036f14f30ad737119c201](https://github.com/njmurarka/ico-solidity/tree/c1878866127df502c41036f14f30ad737119c201) - we would encourage all community members and token holders to make their own assessment of the contracts.
+Solidity contracts were sourced from the public Github repo [njmurarka/ico-solidity](https://github.com/njmurarka/ico-solidity) prior to commit [542b5ca38d7cfc2292e1bb135b8ee10679e54d23](https://github.com/njmurarka/ico-solidity/tree/542b5ca38d7cfc2292e1bb135b8ee10679e54d23) - we would encourage all community members and token holders to make their own assessment of the contracts.
 
 ## Scope
-All Solidity code contained in [/contracts](https://github.com/BlockchainLabsNZ/bluzelle-contracts/tree/c1878866127df502c41036f14f30ad737119c201) was considered in scope along with the tests contained in [/tests](https://github.com/BlockchainLabsNZ/bluzelle-contracts/tree/c1878866127df502c41036f14f30ad737119c201/tests) as a basis for static and dynamic analysis.
+All Solidity code contained in [/contracts](https://github.com/BlockchainLabsNZ/bluzelle-contracts/tree/542b5ca38d7cfc2292e1bb135b8ee10679e54d23) was considered in scope along with the tests contained in [/tests](https://github.com/BlockchainLabsNZ/bluzelle-contracts/tree/542b5ca38d7cfc2292e1bb135b8ee10679e54d23/tests) as a basis for static and dynamic analysis.
 
 ## Focus Areas
 The audit report is focused on the following key areas - though this is not an exhaustive list.
@@ -90,5 +90,3 @@ Overall we have been fully satisfied with the resulting contracts following the 
 To further satisfy test coverage, both `BluzelleToken.sol` and `BluzelleTokenSale.sol` were deployed onto the Kovan Test Network to achieve simulation of a mock sale. This can be viewed in the [Kovan_Tests.md](https://github.com/BlockchainLabsNZ/bluzelle-contracts/blob/master/Kovan_Tests.md) checklist.
 
 The developers have followed common best practices, as well as made some improvements upon existing frameworks. We were pleased to see a demonstrated awareness for compiling contracts in a modular format to avoid confusion.
-
-The only area we suggest for improvement are attaching a README.md with deployment and crowdsale participation instructions, this does not affect the security of the contracts.
