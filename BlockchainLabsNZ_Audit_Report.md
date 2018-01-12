@@ -79,7 +79,7 @@ The audit report is focused on the following key areas - though this is not an e
 
 Overall we have been fully satisfied with the resulting contracts following the audit feedback period. We took part in carefully reviewing all source code provided, including deployment testing.
 
-To further satisfy test coverage, both `BluzelleToken.sol` and `BluzelleTokenSale.sol` were deployed onto the Kovan Test Network to achieve simulation of a mock sale.
+To further satisfy test coverage, both `BluzelleToken.sol` and `BluzelleTokenSale.sol` were deployed onto the Kovan Test Network to achieve simulation of a mock sale. This can be viewed in the [Kovan_Tests.md](https://github.com/BlockchainLabsNZ/bluzelle-contracts/blob/master/Kovan_Tests.md) checklist.
 
 The developers have followed common best practices, as well as made some improvements upon existing frameworks. We were pleased to see a demonstrated awareness for compiling contracts in a modular format to avoid confusion.
 
