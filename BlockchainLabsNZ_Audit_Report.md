@@ -67,11 +67,11 @@ The audit report is focused on the following key areas - though this is not an e
   - [ ] Not Fixed
 - **Remove updateWhitelist.txt** - `Best practice` Looks like it was added by mistake, there is already a `.js` version in the same directory  [View on GitHub](https://github.com/BlockchainLabsNZ/bluzelle-contracts/issues/5)
   - [ ] Not Fixed
-- **There is no safety check for setting the bonus to 0** - `Best practice` In the prior version of the contract there was a safety check so that you couldn't [set the bonus to 0](https://github.com/njmurarka/ico-solidity/commit/19f69dd76c5a0aa19658dd0dd689387e15261d42#diff-5dee561713991ff0349ab72bdb179aa6L175) This has been removed, is this intentional or a mistake?   [View on GitHub](https://github.com/BlockchainLabsNZ/bluzelle-contracts/issues/4)
-  - [ ] Not Fixed
-- **Avoid magic numbers for bonus percentage** - `Best practice` We recommend avoiding the use of magic numbers, using a variable here would improve readability and make the code more maintainable for the future.     [View on GitHub](https://github.com/BlockchainLabsNZ/bluzelle-contracts/issues/3)
+- **Avoid magic numbers for bonus percentage** - `Best practice` We recommend avoiding the use of magic numbers, using a variable here would improve readability and make the code more maintainable for the futre.     [View on GitHub](https://github.com/BlockchainLabsNZ/bluzelle-contracts/issues/3)
   - [ ] Not Fixed
 - **Add a README.md file outlining deployment steps to increase transparency** -  We recommend adding a README.md file detailing deployment steps so contributors can best understand the procedure of participating [View on GitHub](https://github.com/BlockchainLabsNZ/polymath-contracts/blob/master/README.md)
+  - [ ] Not Fixed
+- **There is no safety check for setting the bonus to 0** - `Question` In the prior version of the contract there was a safety check so that you couldn't [set the bonus to 0](https://github.com/njmurarka/ico-solidity/commit/19f69dd76c5a0aa19658dd0dd689387e15261d42#diff-5dee561713991ff0349ab72bdb179aa6L175) This has been removed, is this intentional or a mistake?   [View on GitHub](https://github.com/BlockchainLabsNZ/bluzelle-contracts/issues/4)
   - [ ] Not Fixed
 
 ### Moderate
