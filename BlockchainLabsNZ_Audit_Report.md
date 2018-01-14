@@ -63,8 +63,6 @@ The audit report is focused on the following key areas - though this is not an e
 
 ## Findings
 ### Minor
-- **If reclaiming tokens after transfer ownership, tokens go to original owner** - `Best practice` After transferring ownership to a new address, and then subsequently calling `reclaimTokens()` this results in tokens being send to the old owner instead of the new one.  [View on GitHub](https://github.com/BlockchainLabsNZ/bluzelle-contracts/issues/6)
-  - [ ] Not Fixed
 - **Remove updateWhitelist.txt** - `Best practice` Looks like it was added by mistake, there is already a `.js` version in the same directory  [View on GitHub](https://github.com/BlockchainLabsNZ/bluzelle-contracts/issues/5)
   - [ ] Not Fixed
 - **Avoid magic numbers for bonus percentage** - `Best practice` We recommend avoiding the use of magic numbers, using a variable here would improve readability and make the code more maintainable for the futre.     [View on GitHub](https://github.com/BlockchainLabsNZ/bluzelle-contracts/issues/3)
