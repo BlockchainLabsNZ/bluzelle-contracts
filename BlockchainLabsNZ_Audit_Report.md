@@ -81,10 +81,16 @@ The audit report is focused on the following key areas - though this is not an e
 ### Critical
 - None found
 
+## Testing
+
+To further satisfy test coverage, both `BluzelleToken.sol` and `BluzelleTokenSale.sol` were deployed onto the Kovan Test Network to achieve simulation of a mock sale. This can be viewed in the [Kovan_Tests.md](https://github.com/BlockchainLabsNZ/bluzelle-contracts/blob/master/Kovan_Tests.md) checklist.
+
 ## Conclusion
 
 Overall we have been fully satisfied with the resulting contracts following the audit feedback period. We took part in carefully reviewing all source code provided, including deployment testing.
 
-To further satisfy test coverage, both `BluzelleToken.sol` and `BluzelleTokenSale.sol` were deployed onto the Kovan Test Network to achieve simulation of a mock sale. This can be viewed in the [Kovan_Tests.md](https://github.com/BlockchainLabsNZ/bluzelle-contracts/blob/master/Kovan_Tests.md) checklist.
+We are pleased to report that no potential vulnerabilities were uncovered during the audit. That the token complies with the recently finalised ERC20 Token Standards. The code has excellent testability and the developers have followed common best practices.
 
-The developers have followed common best practices, as well as made some improvements upon existing frameworks. We were pleased to see a demonstrated awareness for compiling contracts in a modular format to avoid confusion.
+Of the issues we have raised all of them are minor.
+
+This crowdsale has a low risk of having ethereum hacked or stolen. 
