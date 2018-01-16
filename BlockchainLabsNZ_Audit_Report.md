@@ -91,6 +91,4 @@ Overall we have been fully satisfied with the resulting contracts following the 
 
 We are pleased to report that no potential vulnerabilities were uncovered during the audit. That the token complies with the recently finalised ERC20 Token Standards. The code has excellent testability and the developers have followed common best practices.
 
-Of the issues we have raised all of them are minor.
-
-This crowdsale has a low risk of having ethereum hacked or stolen. 
+Of the issues we have raised all of them are minor. This crowdsale has a low risk of ethereum being hacked or stolen. 
